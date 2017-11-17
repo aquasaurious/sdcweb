@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body {
+    margin: 0;
+    padding: 0;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway' sans-serif;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+}
+h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+
+section
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background: cornflowerblue;
+    color: yellow;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+
+.nav-logo {
+    align-items: center;
+}
+.nav-logo img{
+    height: 80px;
+    width: 182px;
+}
+
+.mobile-bar {
+    display: none;
+    background: blanchedalmond;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+
+.collapse {
+    max-height: 0px;
+    position: relative;
+}
+
+.navbar-header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background: #d3f3f3;
+    width: 100%;
+    height: 120px;
+}
+
+.collapse {
+    display: block;
+    height: 0px;
+    width: 100%;
+    transition-duration: .3s;
+}
+
+.navbar-brand {
+    height: 100%;
+}
+
+.navbar-brand img {
+    height: 100%;
+}
+
+#dropmenucheck {
+    position: absolute;
+}
+
+#dropmenucheck:checked ~ .collapse {
+    height: 200px;
+    background: black;
+}
+
+
+.icon-bar {
+    background: purple;
+}
+
+.nav-links {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.nav-links ul {
+    display: flex;
+}
+
+.nav-links ul li {
+    display: flex;
+    padding: 20px;
+    font-family: 'Raleway', sans-serif, 700;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.nav-links ul li a {
+}
+
+.banner {
+    background: url('../img/bed.jpg') no-repeat center bottom fixed;
+    height: 420px;
+    width: 100%;
+}
+
+.banner h1 {
+    border: 7px purple;
+    padding: 12px;
+    font-size: 72px;
+    font-family: 'Pacifico', sans-serif;
+    color: purple;
+    position: absolute;
+    left: 100px;
+    border-style: double;
+    border-radius: 16px;
+}
+
+.services {
+    background: #d3f3f3;
+    height: 100%;
+    width: 100%;
+}
+.services-text {
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 20px;
+}
+.mission-text {
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 20px;
+}
+
+.mission {
+    background: #ddffee;
+    width: 100%;
+}
+
+.insurers {
+    display: flex;
+}
+
+.insurers li img {
+    height: 120px;
+    padding: 10px;
+}
+
+.insurance {
+    background: #eeddee;
+    height: 200px;
+    width: 100%;
+}
+
+
+@media (max-width: 639px) {
+    .navbar {
+        display: none;
+    }
+    .mobile-bar {
+        display: flex;
+        
+    }
+}
+
+@media () {
+    
+}
