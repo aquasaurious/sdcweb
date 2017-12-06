@@ -3,9 +3,15 @@ import React, { Component } from 'react';
 class Contact extends Component {
     render() {
       return (
-      
-          <footer class="footer">
-          <div class="contact-box">
+      <div>
+<section id="banner" class="banner">
+    <div class="banner-content">
+        <h1 id="about-name">Rest Easy</h1>
+    </div>
+</section>
+
+<section id="first-feature" class="staff">
+    <div class="contact-box">
               
               <div class="email">((email form here))
               </div>
@@ -14,7 +20,12 @@ class Contact extends Component {
               <div class="phone">(801)651-9199
               </div>
           </div>
-          </footer>
+
+
+
+</section>
+
+</div>
       
       );
     }

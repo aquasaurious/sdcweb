@@ -12,9 +12,11 @@ body {
 
 h1 {
     font-family: 'Lato', sans-serif;
+    color: purple !important;
 }
 h2 {
     font-family: 'Lato', sans-serif;
+    color: purple !important;
 }
 
 
@@ -77,6 +79,12 @@ section
     height: 0px;
     width: 100%;
     transition-duration: .3s;
+}
+
+.page-body {
+    width: 100%;
+    max-width: 1333px;
+    justify-content: center;
 }
 
 .navbar-brand {
@@ -142,10 +150,11 @@ section
     border-radius: 16px;
 }
 
-.services {
+.first-feature {
     background: #d3f3f3;
     height: 100%;
     width: 100%;
+    color: midnightblue;
 }
 .services-text {
     justify-content: center;
@@ -160,9 +169,10 @@ section
     padding: 20px;
 }
 
-.mission {
-    background: #ddffee;
+.second-feature {
+    background: #6bffb3;
     width: 100%;
+    color: midnightblue;
 }
 
 .insurers {
@@ -174,7 +184,7 @@ section
     padding: 10px;
 }
 
-.insurance {
+#insurance {
     background: #eeddee;
     height: 200px;
     width: 100%;

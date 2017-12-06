@@ -3,14 +3,14 @@ import React, { Component } from 'react';
 class Home extends Component {
   render() {
     return (
-<div>
+<div id="page-body">
 <section id="banner" class="banner">
-    <div class="about-content">
+    <div class="banner-content">
         <h1 id="about-name">Rest Easy</h1>
     </div>
 </section>
 
-<section id="services" class="services">
+<section class="first-feature" id="services">
     <div class="services-text">
         <h1>
         Services We Offer:
@@ -41,7 +41,7 @@ class Home extends Component {
 
 </section>
 
-<section id="mission" class="mission">
+<section class="second-feature" id="mission">
     <div class="mission-text">
         <h1>
             Our Mission:
@@ -70,11 +70,15 @@ class Home extends Component {
     </div>
 </section>
 
-<section id="insurance" class="insurance">
+<section class="third-feature" id="insurance">
+<img src="ihearsleep.png" alt="heart-bed"/>
     <ul class="insurers">
-        <li><img src="medicare-logo.png" alt="medicare"/></li>
-        <li><img src="medicaid-logo.png" alt="medicaid"/></li>
-        <li><img src="blue-cross-logo.png" alt="blue cross"/></li>
+        <li><img src="../img/logo_medicare.gif" alt="medicare"/></li>
+        <li><img src="../img/medicaid-logo.jpg" alt="medicaid"/></li>
+        <li><img src="../img/blue-cross-blue-shield-logo-vector.png" alt="blue cross"/></li>
+        <li><img src="../img/cigna-logo.png" alt="cigna"/></li>
+        <li><img src="../img/PEHPlogo.png" alt="pehp"/></li>
+        <li><img src="../img/SelectHealth_logo.jpg" alt="select health"/></li>
     </ul>
 
 </section>
