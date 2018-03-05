@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 
-body {
+page-body {
     margin: 0;
     padding: 0;  
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: 'Raleway' sans-serif;
+    max-width: 1300px;
+    min-width: 300px;
 }
 
 h1 {
@@ -18,6 +20,9 @@ h2 {
     font-family: 'Lato', sans-serif;
     color: purple !important;
 }
+
+
+
 
 
 section
@@ -177,29 +182,21 @@ section
 
 .insurers {
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.insurers li img {
+.insurers img {
     height: 120px;
     padding: 10px;
 }
 
 #insurance {
     background: #eeddee;
-    height: 200px;
+    height: auto;
     width: 100%;
 }
 
-
-@media (max-width: 639px) {
-    .navbar {
-        display: none;
-    }
-    .mobile-bar {
-        display: flex;
-        
-    }
-}
 
 @media () {
     

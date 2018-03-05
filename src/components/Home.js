@@ -1,5 +1,13 @@
 import React, { Component } from 'react';
 
+import iheartsleep from '../img/iheartsleep.png';
+import medicare from '../img/logo_medicare.gif';
+import medicaid from '../img/medicaid-logo.jpg';
+import cigna from '../img/cigna-logo.png';
+import selecthealth from '../img/SelectHealth_logo.jpg';
+import bcbs from '../img/blue-cross-blue-shield-logo-vector.png';
+import pehp from '../img/PEHPLogo.png';
+
 class Home extends Component {
   render() {
     return (
@@ -71,14 +79,13 @@ class Home extends Component {
 </section>
 
 <section class="third-feature" id="insurance">
-<img src="ihearsleep.png" alt="heart-bed"/>
     <ul class="insurers">
-        <li><img src="../img/logo_medicare.gif" alt="medicare"/></li>
-        <li><img src="../img/medicaid-logo.jpg" alt="medicaid"/></li>
-        <li><img src="../img/blue-cross-blue-shield-logo-vector.png" alt="blue cross"/></li>
-        <li><img src="../img/cigna-logo.png" alt="cigna"/></li>
-        <li><img src="../img/PEHPlogo.png" alt="pehp"/></li>
-        <li><img src="../img/SelectHealth_logo.jpg" alt="select health"/></li>
+        <img src={medicare} alt="medicare"/>
+        <img src={medicaid} alt="medicaid"/>
+        <img src={bcbs} alt="blue cross"/>
+        <img src={cigna} alt="cigna"/>
+        <img src={pehp} alt="pehp"/>
+        <img src={selecthealth} alt="select health"/>
     </ul>
 
 </section>
