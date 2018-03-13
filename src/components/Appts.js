@@ -16,6 +16,9 @@ class Appts extends Component {
         <h2>
             Online scheduling, coming soon
         </h2>
+        <h3>
+            Until then, please call us at (801) 938-5362
+        </h3>
         <a class="nav-link js-scroll-trigger" href="/">return home</a>
     </div>
 

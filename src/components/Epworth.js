@@ -1,7 +1,7 @@
-var React      = require('react');
-var Winterfell = require('winterfell');
+import React, { Component } from 'react';
+import Winterfell from 'winterfell';
 
-var schema = require('./schema');
+import schema from '../schema.json';
 
 var onRender = () => {
   console.log('Great news! Winterfell rendered successfully');
@@ -15,21 +15,26 @@ var onSwitchPanel = (panel) => {
 };
 
 var onSubmit = (questionAnswers, target) => {
-  console.log('Form submitted!', questionAnswers);
+  console.log('Form submitted!', questionAnswers[0]);
   console.log('-----');
   console.log('For this example, we disabled normal form submission functionality. ');
-  console.log('-----');
-  alert('Submitted. Check the console to see the answers!');
+  console.log(target);
 };
 
-window.onload = function() {
-  React.render(
-    <Winterfell schema={schema}
-                disableSubmit={true}
-                onRender={onRender}
-                onUpdate={onUpdate}
-                onSwitchPanel={onSwitchPanel}
-                onSubmit={onSubmit} />,
-    document.getElementById('form')
-  );
-};
+class Epworth extends Component {
+    render() {
+        return (
+        <Winterfell schema={schema}
+            disableSubmit={false}
+            onRender={onRender}
+            onUpdate={onUpdate}
+            onSwitchPanel={onSwitchPanel}
+            onSubmit={onSubmit} />
+
+        )
+    }
+}
+
+
+
+export default Epworth;

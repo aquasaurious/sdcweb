@@ -13,11 +13,7 @@ class Contact extends Component {
 <section id="first-feature" class="staff">
     <div class="contact-box">
               
-              <div class="email">((email form here))
-              </div>
-              <div class="copyright">© 2017 Sleep Disorders Clinic
-              </div>
-              <div class="phone">(801)651-9199
+              <div id="form">
               </div>
           </div>
 

@@ -8,6 +8,7 @@ import Issues from './components/Issues.js';
 import Patients from './components/Patients.js';
 import Physicians from './components/Physicians.js';
 import Footing from './components/Footing.js';
+import Epworth from './components/Epworth.js';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 class App extends Component {
@@ -23,6 +24,7 @@ class App extends Component {
             <Route path='/sleep-troubles' component={Issues}/>
             <Route path='/patients' component={Patients}/>
             <Route path='/physicians' component={Physicians}/>
+            <Route path='/epworth' component={Epworth}/>
           </Switch>
         </Router>
         <Footing />
