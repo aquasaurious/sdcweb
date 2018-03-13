@@ -7,17 +7,17 @@ class Issues extends Component {
           <section id="first-feature" class="disorders">
     <div class="services-text">
         <h1>
-        Our Staff
-    </h1>
+            Common Sleep Issues
+        </h1>
     <ul>
         <li>
-            M. Jean Walker, DNP
+            Obstructive Sleep Apnea
         </li>
         <li>
-            Michael Treacy, RN
+            Central Sleep Apnea
         </li>
         <li>
-            ???
+            Page content in development...
         </li>
     </ul>
     </div>
@@ -28,20 +28,7 @@ class Issues extends Component {
 
 <section id="second-feature" class="lifestyle">
     <div class="mission-text">
-        <h1>
-            Our Clinic:
-        </h1>
-        <div>
-            688 E. 9400 S. Sandy UT
-        </div>
-        <hr />
-    
-        <div>
-            Insert photo of storefront here
-        </div>
-        <div>
-            Insert google map image/link here
-        </div>
+        
     </div>
 </section>
 

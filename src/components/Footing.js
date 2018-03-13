@@ -1,17 +1,24 @@
 import React, { Component } from 'react';
+import { GoogleMap, Marker } from "react-google-maps";
 
 class Footing extends Component {
+
+  
+
   render() {
     return (
     
         <footer class="footer">
         <div class="contact-box">
             
-            <div class="email">((email form here))
+            <div class="address">9441 S. Union Square<br/>Sandy, UT 84070
             </div>
-            <div class="copyright">© 2017 Sleep Disorders Clinic
+            <div>
+              </div>
+
+            <div class="phone">(801) 938-5362
             </div>
-            <div class="phone">(801)651-9199
+            <div class="copyright">© 2018 Sleep Disorders Clinic
             </div>
         </div>
         </footer>
@@ -19,5 +26,7 @@ class Footing extends Component {
     );
   }
 }
+
+
 
 export default Footing;

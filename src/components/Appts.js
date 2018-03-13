@@ -13,9 +13,10 @@ class Appts extends Component {
 
 <section id="first-feature" class="schedule">
     <div class="services-text">
-        <h1>
-        insert online scheduler here
-    </h1>
+        <h2>
+            Online scheduling, coming soon
+        </h2>
+        <a class="nav-link js-scroll-trigger" href="/">return home</a>
     </div>
 
 

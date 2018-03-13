@@ -29,7 +29,7 @@ h6 {
  color: #42DCA3; }
 
 p {
- font-size: 16px;
+ font-size: 20px;
  line-height: 1.5;
  margin: 0 0 25px; }
  @media (min-width: 768px) {
@@ -52,21 +52,33 @@ a {
  margin-bottom: 0;
  text-transform: uppercase;
  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
- background-color: black; }
+  }
  #mainNav .navbar-toggler {
    font-size: 14px;
    padding: 11px;
    color: white;
    border: 1px solid white; }
+ #mainNav .fa-bars {
+   height: 2px;
+    width: 10px;
+  color: gold;
+  }
  #mainNav .navbar-brand {
    font-weight: 700; }
  #mainNav a {
-   color: purple;
+   color: yellow;
    text-shadow:
-   -1px -1px 0 rgb(220, 255, 124),
-   1px -1px 0 rgb(220, 255, 124),
-   -1px 1px 0 rgb(220, 255, 124),
-   1px 1px 0 rgb(220, 255, 124);   }
+   -1px -1px 0 rgb(102, 150, 255),
+   1px -1px 0 rgb(102, 150, 255),
+   -1px 1px 0 rgb(102, 150, 255),
+   1px 1px 0 rgb(102, 150, 255);   }
+   #mainNav .container .collapse {
+    display: none;
+  }
+   #mainNav .container .show {
+     display: block;
+     
+   }
  #mainNav .navbar-nav .nav-item {
    -webkit-transition: background 0.3s ease-in-out;
    -moz-transition: background 0.3s ease-in-out;
@@ -78,7 +90,12 @@ a {
    #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
      outline: none;
      background-color: transparent; }
- @media (min-width: 792px) {
+     #mainNav .nav-link {
+       display: flex;
+       justify-content: center;
+       background: darkorchid;
+     }
+ @media (min-width: 992px) {
    #mainNav {
      padding-top: 20px;
      padding-bottom: 20px;
@@ -87,7 +104,18 @@ a {
      transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
      letter-spacing: 1px;
      border-bottom: none;
-     background: transparent; }
+   }
+     
+   #mainNav .container {
+       display: flex;
+       background: transparent;
+     }
+     #mainNav .collapse {
+      display: show;
+     }
+     #mainNav .nav-link {
+      background: transparent;
+     }
      #mainNav.navbar-shrink {
        padding-top: 10px;
        padding-bottom: 10px;
@@ -159,7 +187,7 @@ a {
 hr {
  width: 60%;
  color: #42DCA3;
- thickness: 3px; }
+ size: 3px; }
 
 .devlogo {
  height: 120px;

@@ -18,6 +18,12 @@ class Home extends Component {
     </div>
 </section>
 
+<section class="sleep-score" id="epworth">
+    <button>
+              <a class="nav-link js-scroll-trigger" href="/Epworth">Sleep Quality Quiz</a>
+        
+    </button>
+</section>
 <section class="first-feature" id="services">
     <div class="services-text">
         <h1>

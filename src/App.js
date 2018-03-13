@@ -7,7 +7,6 @@ import About from './components/About.js';
 import Issues from './components/Issues.js';
 import Patients from './components/Patients.js';
 import Physicians from './components/Physicians.js';
-import Contact from './components/Contact.js';
 import Footing from './components/Footing.js';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
@@ -24,9 +23,9 @@ class App extends Component {
             <Route path='/sleep-troubles' component={Issues}/>
             <Route path='/patients' component={Patients}/>
             <Route path='/physicians' component={Physicians}/>
-            <Route path='/contact' component={Contact}/>
           </Switch>
         </Router>
+        <Footing />
       </div>
     );
   }
