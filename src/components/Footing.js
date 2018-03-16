@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { GoogleMap, Marker } from "react-google-maps";
 
 class Footing extends Component {
 
